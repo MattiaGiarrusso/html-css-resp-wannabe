@@ -127,3 +127,70 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media screen and (max-width: 1160px) {
+    body {
+        width: 100vw;
+    }
+
+    header {
+       width: 100%;
+       display: flex;
+       justify-content: center; 
+    }
+ }
+
+
+ /* tablet responsive <= 768px */
+
+ @media screen and (max-width: 768px) {
+        body {
+            width: 100vw;
+        }
+        .container {
+            width: 100%;
+            padding: 0px;        
+        }
+ }
+
+  /* mobile responsive <= 460px */
+
+ @media screen and (max-width: 460px) {
+        body {
+            width: 100vw;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col {
+            text-align: center;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .why-us {
+            background-color: #222222;
+            margin-top: -50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-bottom: 0px;
+            color: white;
+        }
+
+        .why-us h3 {
+            color:#eebbc3;
+        }
+
+        
+
+  }
+
