@@ -128,9 +128,11 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+  /* desktop responsive <= 1160px */
+
  @media screen and (max-width: 1160px) {
     body {
-        width: 100vw;
+       width: 100vw;
     }
 
     header {
@@ -138,8 +140,12 @@ img {
        display: flex;
        justify-content: center; 
     }
- }
-
+    
+    .container {
+        width: 100%;
+        padding: 0px;        
+    }   
+}
 
  /* tablet responsive <= 768px */
 
@@ -147,9 +153,14 @@ img {
         body {
             width: 100vw;
         }
+
         .container {
-            width: 100%;
+            width: 100vw;
             padding: 0px;        
+        }
+
+        .steps {
+            width: 100%;
         }
  }
 
@@ -189,8 +200,5 @@ img {
         .why-us h3 {
             color:#eebbc3;
         }
-
-        
-
   }
 
