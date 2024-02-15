@@ -130,10 +130,7 @@ img {
 
   /* desktop responsive <= 1160px */
 
- @media screen and (max-width: 1160px) {
-    body {
-       width: 100vw;
-    }
+ @media screen and (max-width: 1140px) {
 
     header {
        width: 100%;
@@ -150,10 +147,6 @@ img {
  /* tablet responsive <= 768px */
 
  @media screen and (max-width: 768px) {
-        body {
-            width: 100vw;
-        }
-
         .container {
             width: 100%;
             padding: 0px;        
@@ -167,9 +160,6 @@ img {
   /* mobile responsive <= 480px */
 
  @media screen and (max-width: 480px) {
-        body {
-            width: 100vw;
-        }
 
         .container {
             width: 100%;
@@ -183,6 +173,7 @@ img {
         }
 
         .col {
+            width: 100%;
             text-align: center;
             padding-left: 0;
             padding-right: 0;
